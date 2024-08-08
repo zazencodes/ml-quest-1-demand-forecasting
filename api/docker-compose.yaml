@@ -1,0 +1,25 @@
+services:
+  meal_demand_postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+      POSTGRES_PORT: 5432
+    volumes:
+      - ./../postgres_data:/var/lib/postgresql/data
+  meal_demand_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    environment:
+      POSTGRES_HOST: meal_demand_postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+      POSTGRES_PORT: 5432
+    volumes:
+      - ./app:/app
+    depends_on:
+      - meal_demand_postgres
+

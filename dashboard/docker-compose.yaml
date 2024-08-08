@@ -1,0 +1,22 @@
+services:
+  meal_demand_postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+      POSTGRES_PORT: 5432
+    volumes:
+      - ./../postgres_data:/var/lib/postgresql/data
+  meal_demand_streamlit:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      POSTGRES_HOST: meal_demand_postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+      POSTGRES_PORT: 5432
+    volumes:
+      - ./app:/app
+    depends_on:
+      - meal_demand_postgres
