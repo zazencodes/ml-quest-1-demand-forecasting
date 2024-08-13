@@ -1,3 +1,7 @@
+import sys
+
+sys.path.append("/")
+
 import argparse
 
 from model_train import train_models

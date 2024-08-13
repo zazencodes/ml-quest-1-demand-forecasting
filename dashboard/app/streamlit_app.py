@@ -20,7 +20,8 @@ POSTGRES_DB_ARGS = dict(
 
 # Load data
 current_meal_demand_df = run_postgres_query(
-    "SELECT * FROM current_meal_demand", **POSTGRES_DB_ARGS
+    "SELECT * FROM current_meal_demand",
+    **POSTGRES_DB_ARGS,
 )
 number_of_forecasted_weeks = current_meal_demand_df[
     current_meal_demand_df["period"] == "Future"

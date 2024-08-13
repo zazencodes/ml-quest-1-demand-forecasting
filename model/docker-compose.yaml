@@ -11,8 +11,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - "80:80"
     environment:
       POSTGRES_HOST: meal_demand_postgres
       POSTGRES_USER: postgres
@@ -21,6 +19,8 @@ services:
     volumes:
       - ./app:/app
       - ./meal_demand:/meal_demand
+      - ./../data:/data
+      - ./../artifacts:/artifacts
     depends_on:
       - meal_demand_postgres
 

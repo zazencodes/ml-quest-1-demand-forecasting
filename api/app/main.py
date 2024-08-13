@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import os
+from datetime import datetime
 from postgres import run_postgres_query
 
 
@@ -35,7 +36,11 @@ def fetch_forecast(request: ForecastRequest):
         )
         forecast = forecast_df.to_dict(orient="records")
         return {
-            "request": {"city_name": request.city_name, "meal_name": request.meal_name},
+            "request": {
+                "city_name": request.city_name,
+                "meal_name": request.meal_name,
+                "date": datetime.now().isoformat(),
+            },
             "result": forecast,
         }
     except Exception as e:
