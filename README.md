@@ -1,6 +1,8 @@
 # ML Quest #1: Demand Forecasting
 https://www.patreon.com/ZazenCodes
 
+![Quest Map](assets/ml_quest_1_demand_forecasting.png)
+
 ## Notebooks
 
 ### Part 1: Data Exploration and Cleaning
