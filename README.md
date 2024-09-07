@@ -1,5 +1,5 @@
 # ML Quest #1: Demand Forecasting
-https://www.patreon.com/ZazenCodes
+https://www.patreon.com/ZazenCodes/shop/ml-quest-1-demand-forecasting-full-344393
 
 ![Quest Map](assets/ml_quest_1_demand_forecasting.png)
 
