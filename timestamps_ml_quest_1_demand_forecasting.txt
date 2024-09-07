@@ -1,0 +1,64 @@
+INTRODUCTION
+
+0:00 - Introduction to ML Quest #1 - Demand Forecasting
+10:18 - Understanding the Dataset & the Problem to Model
+
+SECTION 1 - DATA EXPLORATION
+
+13:54 - Data Exploration - Loading the Dataset
+20:56 - Data Exploration - Handling Missing Data
+27:21 - Data Exploration - Anomaly and Outlier Detection
+38:30 - Data Exploration - Temporal Coverage and Distribution Analysis
+
+SECTION 2 - FEATURE ENGINEERING
+
+54:23 - Feature Engineering - Our Goal & General Considerations
+59:36 - Feature Engineering - One-Hot Encoding
+1:05:38 - Feature Engineering - Custom Ordered Categorical Encoder
+1:14:48 - Feature Engineering - Numeric & Date Features
+1:19:17 - Feature Engineering - Moving Average & Lag Features
+1:39:29 - Bonus - Data Imputation for Temporal Gaps
+
+SECTION 3 - MODELING
+
+1:52:25 - Modeling - Introduction
+1:53:15 - Modeling - Create a Model Using Simple Heuristics
+1:56:26 - Modeling - General Considerations
+1:59:10 - Modeling - Grid Search for Hyperparameter Optimization
+2:02:30 - Modeling - Gradient Boosted Regression
+2:04:10 - Modeling - Train-Test Split for Timeseries Data
+2:05:49 - Modeling - Grid Search Continued
+2:08:10 - Modeling - Visualizing & Interpreting Grid Search Results
+2:15:00 - Modeling - Training the "Final Model"
+2:19:46 - Modeling - Training a Stack of Models
+2:25:03 - Modeling - Generating the Forecast
+2:34:03 - Modeling - Visualizing the Forecast
+2:41:06 - Modeling - Uploading Forecast to Postgres
+
+SECTION 4 - HANDS-ON IMPLEMENTATION
+
+2:50:38 - Hands-On App Implementation - Introduction
+2:51:45 - Hands-On App Implementation - ML App Overview
+2:55:55 - Hands-On App Implementation - Docker Compose App Overview
+3:00:24 - Hands-On App Implementation - Data Loading & Cleanup Module
+3:09:50 - Hands-On App Implementation - Feature Encoding Module
+3:20:57 - Hands-On App Implementation - Numeric Features Module
+3:27:04 - Hands-On App Implementation - Model Training Module
+3:35:45 - Hands-On App Implementation - Model Forecast Module
+3:49:49 - Hands-On App Implementation - Forecast Database Integration
+
+SECTION 5 - ML APP DEMO / WALK-THROUGH
+
+3:56:45 - ML App Demo / Walk-Through - Model Library Docker App
+4:02:42 - ML App Demo / Walk-Through - Model Train Module
+4:10:03 - ML App Demo / Walk-Through - Running the Model Train Module
+4:17:13 - ML App Demo / Walk-Through - Model Forecast Module
+4:27:49 - ML App Demo / Walk-Through - Running the Model Forecast Module
+
+SECTION 6 - USER APP DEMO / WALK-THROUGH
+
+4:30:08 - User App Demo / Walk-Through - Model API with FastAPI on Docker
+4:43:40 - User App Demo / Walk-Through - Model Dashboard with Streamlit on Docker
+4:48:26 - User App Demo / Walk-Through - Model Dashboard Insights
+4:54:20 - User App Demo / Walk-Through - Streamlit Dashboard Code
+5:14:34 - User App Demo / Walk-Through - Course Summary & Conclusion
