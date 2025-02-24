@@ -1,0 +1,408 @@
+{
+  "course": {
+    "name": "ML Quest 1: Demand Forecasting",
+    "previewContentDisabled": true,
+    "topicGroups": [
+      {
+        "id": "1-full-course",
+        "name": "Full Course",
+        "topicSubGroups": [
+          {
+            "id": "1-introduction",
+            "name": "Introduction",
+            "topics": [
+              {
+                "id": "1-introduction-to-course",
+                "name": "Introduction to ML Quest #1 - Demand Forecasting",
+                "content": "Overview of the course objectives and structure",
+                "lesson_hash_id": "5282b0f961aa",
+                "video_file": "1-introduction-to-course.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "2-understanding-dataset-problem",
+                "name": "Understanding the Dataset & the Problem to Model",
+                "content": "Introduction to the dataset and the forecasting problem",
+                "lesson_hash_id": "decfe53d49f2",
+                "video_file": "2-understanding-dataset-problem.mp4",
+                "has_preview_video": false
+              }
+            ]
+          },
+          {
+            "id": "2-data-exploration",
+            "name": "Data Exploration",
+            "topics": [
+              {
+                "id": "1-loading-dataset",
+                "name": "Loading the Dataset",
+                "content": "Step-by-step process of loading the dataset",
+                "lesson_hash_id": "c15eb16479a6",
+                "video_file": "1-loading-dataset.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "2-handling-missing-data",
+                "name": "Handling Missing Data",
+                "content": "Techniques to manage missing data",
+                "lesson_hash_id": "a7aa8f5331cc",
+                "video_file": "2-handling-missing-data.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "3-anomaly-outlier-detection",
+                "name": "Anomaly and Outlier Detection",
+                "content": "Methods for identifying and addressing anomalies",
+                "lesson_hash_id": "770e844f4171",
+                "video_file": "3-anomaly-outlier-detection.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "4-temporal-coverage-analysis",
+                "name": "Temporal Coverage and Distribution Analysis",
+                "content": "Analyzing time-based data coverage and distributions",
+                "lesson_hash_id": "8ca515cb63e8",
+                "video_file": "4-temporal-coverage-analysis.mp4",
+                "has_preview_video": false
+              }
+            ]
+          },
+          {
+            "id": "3-feature-engineering",
+            "name": "Feature Engineering",
+            "topics": [
+              {
+                "id": "1-goal-general-considerations",
+                "name": "Our Goal & General Considerations",
+                "content": "Defining objectives for feature engineering",
+                "lesson_hash_id": "baa58da6a077",
+                "video_file": "1-goal-general-considerations.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "2-one-hot-encoding",
+                "name": "One-Hot Encoding",
+                "content": "Encoding categorical data",
+                "lesson_hash_id": "67e7614aeaf8",
+                "video_file": "2-one-hot-encoding.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "3-custom-ordered-categorical",
+                "name": "Custom Ordered Categorical Encoder",
+                "content": "Creating custom encoders",
+                "lesson_hash_id": "1165d61567af",
+                "video_file": "3-custom-ordered-categorical.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "4-numeric-date-features",
+                "name": "Numeric & Date Features",
+                "content": "Engineering numeric and date-based features",
+                "lesson_hash_id": "18e88518a78d",
+                "video_file": "4-numeric-date-features.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "5-moving-average-lag-features",
+                "name": "Moving Average & Lag Features",
+                "content": "Creating lag-based features for forecasting",
+                "lesson_hash_id": "3a24972dce32",
+                "video_file": "5-moving-average-lag-features.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "6-data-imputation-temporal-gaps",
+                "name": "Data Imputation for Temporal Gaps",
+                "content": "Handling gaps in time-series data",
+                "lesson_hash_id": "3938b0d1aee8",
+                "video_file": "6-data-imputation-temporal-gaps.mp4",
+                "has_preview_video": false
+              }
+            ]
+          },
+          {
+            "id": "4-modeling",
+            "name": "Modeling",
+            "topics": [
+              {
+                "id": "1-modeling-introduction",
+                "name": "Introduction",
+                "content": "Overview of modeling techniques",
+                "lesson_hash_id": "86f3117c86ed",
+                "video_file": "1-modeling-introduction.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "2-simple-heuristics-model",
+                "name": "Create a Model Using Simple Heuristics",
+                "content": "Building a baseline model",
+                "lesson_hash_id": "1154cc055c81",
+                "video_file": "2-simple-heuristics-model.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "3-general-considerations",
+                "name": "General Considerations",
+                "content": "Key considerations for modeling",
+                "lesson_hash_id": "59fcaeb99f17",
+                "video_file": "3-general-considerations.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "4-hyperparameter-optimization",
+                "name": "Grid Search for Hyperparameter Optimization",
+                "content": "Using grid search to optimize models",
+                "lesson_hash_id": "0e8329c04ddf",
+                "video_file": "4-hyperparameter-optimization.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "5-gradient-boosted-regression",
+                "name": "Gradient Boosted Regression",
+                "content": "Introduction to gradient boosted models",
+                "lesson_hash_id": "9972faf89db2",
+                "video_file": "5-gradient-boosted-regression.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "6-train-test-split",
+                "name": "Train-Test Split for Timeseries Data",
+                "content": "Splitting data for time-series models",
+                "lesson_hash_id": "15ca6c8ad4ea",
+                "video_file": "6-train-test-split.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "7-grid-search-continued",
+                "name": "Grid Search Continued",
+                "content": "Continuing the grid search process",
+                "lesson_hash_id": "09bc197a9113",
+                "video_file": "7-grid-search-continued.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "8-grid-search-visualization",
+                "name": "Visualizing & Interpreting Grid Search Results",
+                "content": "Analyzing grid search results",
+                "lesson_hash_id": "0c56392304ab",
+                "video_file": "8-grid-search-visualization.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "9-training-final-model",
+                "name": "Training the \"Final Model\"",
+                "content": "Building and training the final model",
+                "lesson_hash_id": "9cde8b236074",
+                "video_file": "9-training-final-model.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "10-stack-of-models",
+                "name": "Training a Stack of Models",
+                "content": "Combining models for improved forecasting",
+                "lesson_hash_id": "ed5fdb8a6ac5",
+                "video_file": "10-stack-of-models.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "11-generating-forecast",
+                "name": "Generating the Forecast",
+                "content": "Creating forecasts from the model",
+                "lesson_hash_id": "71cda810ead9",
+                "video_file": "11-generating-forecast.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "12-forecast-visualization",
+                "name": "Visualizing the Forecast",
+                "content": "Interpreting and visualizing model outputs",
+                "lesson_hash_id": "74f1629b28d9",
+                "video_file": "12-forecast-visualization.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "13-forecast-database-upload",
+                "name": "Uploading Forecast to Postgres",
+                "content": "Saving forecasts to a database",
+                "lesson_hash_id": "c4d625428452",
+                "video_file": "13-forecast-database-upload.mp4",
+                "has_preview_video": false
+              }
+            ]
+          },
+          {
+            "id": "5-hands-on-implementation",
+            "name": "Hands-On Implementation",
+            "topics": [
+              {
+                "id": "1-implementation-introduction",
+                "name": "Introduction",
+                "content": "Overview of hands-on implementation",
+                "lesson_hash_id": "58bb6bb13cad",
+                "video_file": "1-implementation-introduction.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "2-ml-app-overview",
+                "name": "ML App Overview",
+                "content": "Introduction to the ML app structure",
+                "lesson_hash_id": "6941a9ad833e",
+                "video_file": "2-ml-app-overview.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "3-docker-compose-overview",
+                "name": "Docker Compose App Overview",
+                "content": "Using Docker Compose for ML apps",
+                "lesson_hash_id": "9a1af9f7f73f",
+                "video_file": "3-docker-compose-overview.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "4-data-loading-cleanup",
+                "name": "Data Loading & Cleanup Module",
+                "content": "Implementing the data loading pipeline",
+                "lesson_hash_id": "6e1028f2da5c",
+                "video_file": "4-data-loading-cleanup.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "5-feature-encoding-module",
+                "name": "Feature Encoding Module",
+                "content": "Encoding features for the ML model",
+                "lesson_hash_id": "f28c31ce8955",
+                "video_file": "5-feature-encoding-module.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "6-numeric-features-module",
+                "name": "Numeric Features Module",
+                "content": "Engineering numeric features",
+                "lesson_hash_id": "6a8c063a4222",
+                "video_file": "6-numeric-features-module.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "7-model-training-module",
+                "name": "Model Training Module",
+                "content": "Building the training module",
+                "lesson_hash_id": "71bb77ebe83b",
+                "video_file": "7-model-training-module.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "8-forecast-module",
+                "name": "Model Forecast Module",
+                "content": "Generating and saving forecasts",
+                "lesson_hash_id": "5f525a42e0c6",
+                "video_file": "8-forecast-module.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "9-forecast-database-integration",
+                "name": "Forecast Database Integration",
+                "content": "Integrating forecasts with the database",
+                "lesson_hash_id": "8605c8b9a8fc",
+                "video_file": "9-forecast-database-integration.mp4",
+                "has_preview_video": false
+              }
+            ]
+          },
+          {
+            "id": "6-ml-app-demo",
+            "name": "ML App Demo & Walk-Through",
+            "topics": [
+              {
+                "id": "1-model-library-docker",
+                "name": "Model Library Docker App",
+                "content": "Overview of the model library",
+                "lesson_hash_id": "63d00fab1299",
+                "video_file": "1-model-library-docker.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "2-model-train-module",
+                "name": "Model Train Module",
+                "content": "Details of the training module",
+                "lesson_hash_id": "7d09d8946602",
+                "video_file": "2-model-train-module.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "3-running-model-train-module",
+                "name": "Running the Model Train Module",
+                "content": "Executing the training process",
+                "lesson_hash_id": "53974d2706cd",
+                "video_file": "3-running-model-train-module.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "4-forecast-module",
+                "name": "Model Forecast Module",
+                "content": "Details of the forecasting module",
+                "lesson_hash_id": "b3b01b2117f4",
+                "video_file": "4-forecast-module.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "5-running-forecast-module",
+                "name": "Running the Model Forecast Module",
+                "content": "Executing the forecasting process",
+                "lesson_hash_id": "5b04c3a5f02f",
+                "video_file": "5-running-forecast-module.mp4",
+                "has_preview_video": false
+              }
+            ]
+          },
+          {
+            "id": "7-user-app-demo",
+            "name": "User App Demo / Walk-Through",
+            "topics": [
+              {
+                "id": "1-model-api-fastapi",
+                "name": "Model API with FastAPI on Docker",
+                "content": "Implementing a model API",
+                "lesson_hash_id": "dfe6d1f86aa3",
+                "video_file": "1-model-api-fastapi.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "2-model-dashboard-streamlit",
+                "name": "Model Dashboard with Streamlit on Docker",
+                "content": "Building a dashboard for the model",
+                "lesson_hash_id": "fa8fa2c2ced8",
+                "video_file": "2-model-dashboard-streamlit.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "3-dashboard-insights",
+                "name": "Model Dashboard Insights",
+                "content": "Interpreting insights from the dashboard",
+                "lesson_hash_id": "2fd0dd7d5e58",
+                "video_file": "3-dashboard-insights.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "4-streamlit-dashboard-code",
+                "name": "Streamlit Dashboard Code",
+                "content": "Code walk-through of the dashboard",
+                "lesson_hash_id": "72d6b3e335ab",
+                "video_file": "4-streamlit-dashboard-code.mp4",
+                "has_preview_video": false
+              },
+              {
+                "id": "5-course-summary-conclusion",
+                "name": "Course Summary & Conclusion",
+                "content": "Summarizing key learnings",
+                "lesson_hash_id": "08a252fce12e",
+                "video_file": "5-course-summary-conclusion.mp4",
+                "has_preview_video": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
